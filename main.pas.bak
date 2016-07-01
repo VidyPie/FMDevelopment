@@ -1,0 +1,33 @@
+unit Main;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils;
+
+type
+  MainUnit = class(TObject)
+
+  private
+   // procedure Setup;
+  public
+    constructor Create;
+  end;
+implementation
+
+{
+procedure MainUnit.Setup;
+begin
+  ShowMessage('sda');
+end;
+ }
+constructor MainUnit.Create;
+var i: Integer;
+begin
+  i := 0;
+end;
+
+end.
+
