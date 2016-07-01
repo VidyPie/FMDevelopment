@@ -21,6 +21,7 @@ constructor MainUnit.Create;
 var i: Integer;
 begin
   i := 0;
+
 end;
 
 end.

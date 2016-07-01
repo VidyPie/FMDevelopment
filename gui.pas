@@ -8,9 +8,8 @@ uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Main;
 
 type
-  TForm1 = class(TForm)
+  TGameWindow = class(TForm)
   private
-    //mainu: MainUnit;
     { private declarations }
   public
     { public declarations }
@@ -18,7 +17,7 @@ type
 
 
 var
-  Form1: TForm1;
+  GameWindow: TGameWindow;
   mainu: MainUnit;
 
 implementation
@@ -26,7 +25,7 @@ implementation
 
 initialization
   mainu := MainUnit.Create;
-  //MainUnit.Setup;
+
 {$R *.lfm}
 
 end.
